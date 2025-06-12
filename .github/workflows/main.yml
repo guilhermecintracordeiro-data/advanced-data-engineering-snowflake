@@ -2,7 +2,7 @@ name: Deploy Templatized Data Environment
 
 on:
   pull_request:
-    types: [opened, closed]
+    types: [closed]
     branches:
       - staging
       - main
